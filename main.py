@@ -7,7 +7,7 @@ import fitz
 wa_token=os.environ.get("WA_TOKEN")
 genai.configure(api_key=os.environ.get("GEN_API"))
 phone_id=os.environ.get("PHONE_ID")
-phone=os.environ.get("PHONE_NUMBER")
+phone=os.environ.get("PHONE_NUMBER") 
 name="Eng. Ahmed Helmy Eletr" #The bot will consider this person as its owner or creator
 bot_name="MindBot-1.7-mini" #This will be the name of your bot, eg: "Hello I am Astro Bot"
 model_name="gemini-2.0-flash"
